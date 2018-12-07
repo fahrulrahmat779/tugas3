@@ -1,0 +1,44 @@
+import java.util.ArrayList;
+
+
+public class QueueFloat {
+
+	ArrayList<Float> kelase = new ArrayList<Float>();
+
+	int fahrul = -1;
+
+
+	public void insert(Float value) {
+
+		fahrul++;
+
+		kelase.add(fahrul,value);
+
+	}
+
+	public Float get() {
+
+		Float value = 0.1f;
+
+		if(alief>-1) {
+
+			value = kelase.get(0);
+
+			kelase.remove(0);
+
+			fahrul--;
+
+		}
+
+		return value;
+
+
+	}
+
+	public void cetak() {
+
+		System.out.println("ECOR : "+fahrul+" > VARIABLE: "+kelase.toString());
+
+	}
+
+}
