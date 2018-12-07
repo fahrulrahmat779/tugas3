@@ -1,0 +1,25 @@
+public class MainStackString {
+
+public static void main(String[] args) {
+
+		classstackstring st= new classstackstring();
+
+
+		st.push("fahrul");
+
+    st.push("yusuf");
+
+		st.push("rahmat");
+
+		st.push("masdar");
+
+
+		String d0=st.pop();
+
+		System.out.println(d0);
+
+		st.cetak();
+
+	}
+
+}
