@@ -1,0 +1,44 @@
+import java.util.ArrayList;
+
+
+public class QueueDouble {
+
+	ArrayList<Double> kelase = new ArrayList<Double>();
+
+	int fahrul = -1;
+
+
+	public void insert(Double value) {
+
+		fahrul++;
+
+		kelase.add(fahrul,value);
+
+	}
+
+	public Double get() {
+
+		Double value = 0.1;
+
+		if(fahrul>-1) {
+
+			value = kelase.get(0);
+
+			kelase.remove(0);
+
+			alief--;
+
+		}
+
+		return value;
+
+
+	}
+
+	public void cetak() {
+
+		System.out.println("ECOR : "+fahrul+" > VARIABLE: "+kelase.toString());
+
+	}
+
+}
