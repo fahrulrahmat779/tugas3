@@ -7,9 +7,9 @@ public class ArrayListObject {
 
 	ArrayList<Mahasiswa> Data = new ArrayList<Mahasiswa>();
 
-	Data.add(new Mahasiswa("ALIEF TAUFIK", "D0217385", "E", "saleppa"));
+	Data.add(new Mahasiswa("FAHRUL RAHMAT", "D0217384", "E", "Wonomulyo"));
 
-	Data.add(new Mahasiswa("ABDI ANUGRAH", "D0217531", "E", "parrape"));
+	Data.add(new Mahasiswa("MASDAR", "D0217378", "E", "Luyo"));
 
 
 	Data.forEach(data ->{
